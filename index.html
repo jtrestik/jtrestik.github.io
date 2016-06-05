@@ -1,0 +1,13 @@
+---
+layout: default
+title: Jana Trestikova
+---
+
+<div class='about_content' id='about_left'>
+    <div class='about_me'>
+        <div class='about_me_body'>
+            {% capture about_text %}{% include about-me.md %}{% endcapture %}
+            {{ about_text | markdownify }}
+        </div>
+    </div>
+</div>
